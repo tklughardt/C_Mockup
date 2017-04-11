@@ -43,7 +43,8 @@ int core_logic() {
 	int s =  rand() % 10;
 	printf ("Calling %i of backends in this Transaction\n", s);
 
-	for (int i = 0; i < s; i = i + 1) {
+	int i;
+	for (i = 0; i < s; i = i + 1) {
 		int backend = rand() % 2;
 
 		if (backend == 0) {
@@ -91,7 +92,7 @@ int main() {
 
         printf("***********************************************\n");
 		printf("* Simple C Mockup App for testing C/C++ Agent *\n");
-        printf("* @Author ThomasKlughardt@appdynamics.com     *\n");
+        printf("* @Author Thomas.Klughardt@appdynamics.com     *\n");
         printf("***********************************************\n");
 
 	for(;;) {
