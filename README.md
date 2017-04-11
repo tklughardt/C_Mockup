@@ -10,7 +10,7 @@ When doing a simple compile without makefile etc., be sure to add the sdk.so lib
   
 In this example the sdk was extracted to the same directory as the actual c application, otherwise please adjust the location accordingly.
 
-IMPORTANT: Also adjust the Controller location and access key, otherwise the agent will not be able to send it's data.
+IMPORTANT: Also adjust the Controller location and access key (and maybe the SDK location for the include), otherwise the agent will not be able to send it's data.
 
 TODO - 
 There is a lot of stuff that has not yet happened here. The things that come from the top of my mind are:
