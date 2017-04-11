@@ -19,5 +19,6 @@ There is a lot of stuff that has not yet happened here. The things that come fro
 - Add data to exit calls like SQL statements or URLs, etc.
 - Add User Data - Not being used at the moment.
 - Add snapshot information when a snapshot is happening.
+- Up- and Downstream correlation, so that this becomes part of a bigger application.
 
 If you have anything that you think makes sense, please let me know: thomas.klughardt@appdynamics.com
