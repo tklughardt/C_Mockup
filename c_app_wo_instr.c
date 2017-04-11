@@ -90,10 +90,10 @@ int call_to_bt2() {
 
 int main() {
 
-        printf("***********************************************\n");
-		printf("* Simple C Mockup App for testing C/C++ Agent *\n");
-        printf("* @Author Thomas.Klughardt@appdynamics.com     *\n");
-        printf("***********************************************\n");
+    printf("***********************************************\n");
+	printf("* Simple C Mockup App for testing C/C++ Agent *\n");
+	printf("* @Author Thomas.Klughardt@appdynamics.com     *\n");
+    printf("***********************************************\n");
 
 	for(;;) {
 

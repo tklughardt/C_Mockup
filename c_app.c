@@ -39,9 +39,9 @@ static int init_appdynamics(void) {
 
 // ---- De-initialization of AppDynamics ----
 static void deinit_appdynamics(void) {
-  fprintf(stderr, "Terminating AppDynamics SDK... ");
-  appd_sdk_term();
-  fprintf(stderr, "AppDynamics SDK successfully terminated.\n");
+	fprintf(stderr, "Terminating AppDynamics SDK... ");
+	appd_sdk_term();
+	fprintf(stderr, "AppDynamics SDK successfully terminated.\n");
 }
 
 // ---- Declarations for AppDynamics ------
